@@ -1,0 +1,17 @@
+pragma solidity >=0.7.0 <0.8.0;
+contract Mapping{
+
+mapping(string => string) city1;
+
+function take(string memory _city, string memory _country) public{
+    city1[_city] = _country;
+}
+
+function store(string memory _input1 , string memory _input2) public{
+    store(city1[_input1 , _input2]);
+}
+function get (string memory _n) public view returns (string memory){
+    return city1[_n];
+    }
+
+}
