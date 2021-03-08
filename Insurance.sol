@@ -1,9 +1,6 @@
 pragma solidity >=0.6.0 <0.8.1;
 
-/**
- * @title Tech Insurance tor
- * @dev complete the functions
- */
+import "@openzepplin/contracts/token/ERC20/ERC20.sol";
 contract TechInsurance {
     
     /** 
